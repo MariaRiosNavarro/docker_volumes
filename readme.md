@@ -102,6 +102,12 @@ Sehe how many volumes:
 docker volume ls
 ```
 
+Stop Container:
+
+```
+docker container stop id1 id2 id2
+```
+
 Remove more containers (id1-> id one Container):
 
 ```
@@ -115,3 +121,5 @@ docker exec -it containerId/Name sh
 ```
 
 ![](/readme_img/navi.png)
+
+(Remember to me: I deleted all images & containers of this repo)
