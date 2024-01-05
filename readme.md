@@ -61,7 +61,7 @@ Add an image to this port (7000) with Thunder client. Check Docker Desktop to se
 
 ![](/readme_img/datainv.png)
 
-### Create a container with a named volume and save it in Docker::
+### 2\_ Create a container with a named volume and save it in Docker::
 
 ```
 docker run -d -p CONTAINER_NEW_PORT:DOCKER_FILE_PORT -v NAMEOFVOLUME:DOCKERFILE_VOLUME_PATH IMAGEID/NAME
@@ -78,7 +78,7 @@ Use Thunderclient to send an image on the specified port, and you'll get a new i
 
 ![](/readme_img/version2.png)
 
-### Create a container with a path and save it on your server::
+### 3\_ Create a container with a path and save it on your server::
 
 ```markdown
 docker run -d -p CONTAINER_NEW_PORT:DOCKER_FILE_PORT -v ABSOLUTEPATH:DOCKERFILE_VOLUME_PATH IMAGEID/NAME
@@ -93,6 +93,10 @@ A new image is added to the images folder (previously only one):
 ![](/readme_img/thunderpath.png)
 
 No new volume appears in your Docker Desktop.
+
+# ------ How not to lose data by creating a new container ----------
+
+USE the same VALUE NAME/PATH of the old CONTAINER wenn you create the new container !
 
 ### IMPORTANT CMD IN TERMINAL:
 
