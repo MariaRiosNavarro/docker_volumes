@@ -1,6 +1,6 @@
 # Docker Volumes test
 
-Create an image with a VOLUME:
+Create an image with a VOLUME (Dockerfile):
 
 ```markdown
 # Specifies the base image as Node.js on Alpine Linux, which is a lightweight Linux distribution.
